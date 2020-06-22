@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19 info</title>
+	<style type="text/css">
+		*{
+	box-sizing: border-box;
+
+}
+body{
+	background-color: #f0f2f5;
+}
+.header{
+	height: 800px;
+	padding: 30px;
+	text-align: center;
+	background-image: url(header.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;  
+	margin:1%;
+	margin-bottom: 0px;
+	font-size: 100px;
+	text-align: center;
+	color: #ff2b75;
+}
+
+.navbar{
+	overflow: auto;
+	background-color:black;
+	font-color:white;
+	position: sticky; 
+	top:0;
+	z-index: 1;
+	
+	margin:0 1%;
+}
+.link{
+	float: left;
+	display:block;
+	color: white;
+	padding: 10px;
+
+}
+.link:hover{
+	color: grey;
+}
+#link1:hover{
+	a
+}
+
+.cases{
+	float:left;
+	width:31%;
+	margin: 0.5%;
+	text-align: center;
+	font-size: 30px;
+	border-style: solid;
+}
+
+.main{
+	padding: 10px;
+	position: relative;
+}
+
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.menu{
+	width:28%;
+	height:805px;
+	float:left;
+	background-color:#deded9; 
+	padding-right: 10px;
+	margin: 0.5%;
+}
+.sign_up{
+	font-size: 20px;
+	padding: 20px;
+}
+
+.content{
+	float: left;
+	height: 805px;
+	width: 70%;
+	background: #faf9d4;
+	padding: 10px;
+	margin:0.5% ;
+}
+.img{
+	float: left;
+	width: 48%;
+	margin:1%;
+	height: 230px;
+}
+.table{
+	margin: 50px;
+	width:90%;
+}
+.article{
+	margin: 5%;
+	padding:1%;
+	border-style: solid;
+	height:200px;
+	overflow:auto;
+}
+.footer{
+	padding: 20px;
+	margin: 1%;
+	text-align: center;
+	
+	height: 200px;
+	position: relative;
+}
+	</style>
+</head>
+
+
+
+<body>
+<div class="header">
+</div>
+
+<div class="navbar">
+	navbar
+	<a class = "link" id="link1" href=https://www.coronatracker.com/country/india/>Corona Tracker</a>
+	<a class = "link" href="https://www.mohfw.gov.in/">Ministry Of Health And Family Welfare</a>
+</div>
+<div id ="summary">
+	<p style="text-align: center; font-size: 30px"><strong>INDIA's OVERVIEW</strong> (last updated 22-06-2020)</p>
+	<div class ="cases">
+		<p style="color: #85adad; font-weight: bold; ">426,910</p>
+		<p>Total cases</p>
+	</div>
+	<div class ="cases">
+		<p style="color: #00b300; font-weight: bold;">237,252</p>
+		<p>Recovered</p>
+	</div>
+	<div class ="cases">
+		<p style="color: #ff5c33; font-weight: bold;">13,703</p>
+		<p>Deaths</p>
+	</div>
+</div>
+<div class="main">
+	<div class="menu">
+		<div class="sign_up">
+			<p id="book" style="padding-bottom:10px; font-size: 30px">
+				<strong>Sign Up</strong>
+			</p>
+			<form>
+				<div style="padding-bottom:10px; ">
+					<label>
+						<strong>First Name</strong>
+						<input type="text" placeholder= "First Name" required>
+					</label>
+				</div >
+				<div style="padding-bottom:10px; ">
+					<label>
+						<strong>Last Name</strong>
+						<input type="text" placeholder= "Last Name" required>
+					</label>
+				</div >
+				<div style="padding-bottom:10px;">
+				<label>
+					<strong>Email</strong>
+					<input type="email" placeholder="Email" required>
+				</label>
+				</div>
+				<div style="padding-bottom:10px;">
+				<label>
+					<strong>Password</strong>
+					<input type="Password" placeholder="Password" required>
+				</label>
+				</div>
+				<div style="padding-bottom:10px;">
+				<label>
+					<strong>Confirm Password</strong>
+					<input type="Password" placeholder="Password" required>
+				</label>
+				</div>
+				<div style="padding-bottom:10px;">
+					<label>
+						<strong>Phone number</strong>
+						<input type="Phone" placeholder="Phone number" required pattern=".{10}" required title="Phone number should be 10 digits">
+					</label>
+				</div>
+				<button>Sign Up</button>
+			</form>
+
+
+			<p id="login" style="padding-bottom:10px;padding-top: 30px; font-size: 30px">
+				<strong>Login</strong>
+			</p>
+			<form>
+				<div style="padding-bottom:10px;">
+				<label>
+					<strong>Email</strong>
+					<input type="email" placeholder="Email" required>
+				</label>
+				</div>
+				<div style="padding-bottom:10px;">
+				<label>
+					<strong>Password</strong>
+					<input type="Password" placeholder="Password" required>
+				</label>
+				</div>
+				<button>Login</button>
+			</form>
+			
+			
+				
+				
+				
+			
+		</div>
+		<div style="padding: 20px;">
+			For any difficulties mail us at covid19info@gmail.com
+		</div>
+
+	</div>
+
+	<div class="content">
+		<strong style="text-align: center; font-size: 30px; padding-left: 40px;">Home Care For People With Suspected Or Confirmed Covid-19</strong>
+		<div>
+			<div>
+				<img class = "img" src="1.png">
+			</div>
+			<div>
+				<img class = "img" src="2.png">
+			</div>
+			<div>
+				<img class = "img" src="3.png">
+			</div>
+			<div>
+				<img class = "img" src="4.png">
+			</div>
+			<div>
+				<img class = "img" src="5.png">
+			</div>
+			<div>
+				<img class = "img" src="6.png">
+			</div>		
+		</div>
+
+
+	</div>
+
+</div>
+<div class="table">
+	<strong style="font-size: 30px; padding-left: 30%;color:#0059b3">State Wise Evaluation Of Covid Cases</strong>
+	<table border="1" cellspacing="1" cellpadding="1" class="table table-striped" style="font-weight:bold; text-align: center; background: #b3d9ff">
+<thead>
+	<tr>
+	<th><strong>Serial No.</strong></th>
+	<th><strong>Name of State / UT</strong></th>
+	<th><strong>Active Cases*</strong></th>
+	
+	<th><strong>Cured/Discharged/Migrated*</strong></th>
+	<th><strong>Deaths</strong></th>
+	<th><strong>Total Confirmed cases*</strong></th>                              
+	</tr>
+</thead>	
+<tbody>
+<tr>
+	<td>1</td>
+	<td>Andaman and Nicobar Islands</td>
+	<td>11</td>
+	<td>37</td>
+	<td>0</td>
+	<td>48</td>
+	</tr>
+	<tr>
+	
+	<td>2</td>
+	<td>Andhra Pradesh</td>
+	<td>4562</td>
+	<td>4331</td>
+	<td>106</td>
+	<td>8999</td>
+	</tr>
+	
+	
+	<tr>
+	<td>3</td>
+	<td>Arunachal Pradesh</td>
+	<td>120</td>
+	<td>15</td>
+	<td>0</td>
+	<td>135</td>
+	</tr>
+	
+	<tr>
+	<td>4</td>
+	<td>Assam</td>
+	<td>2019</td>
+	<td>3360</td>
+	<td>9</td>
+	<td>5388</td>
+	</tr>
+	
+	<tr>
+	<td>5</td>
+	<td>Bihar</td>
+	<td>1979</td>
+	<td>5580</td>
+	<td>53</td>
+	<td>7612</td>
+	</tr>
+	
+	<tr>
+	<td>6</td>
+	<td>Chandigarh</td>
+	<td>84</td>
+	<td>316</td>
+	<td>6</td>
+	<td>406</td>
+	</tr>
+	
+	<tr>
+	<td>7</td>
+	<td>Chhattisgarh</td>
+	<td>817</td>
+	<td>1447</td>
+	<td>11</td>
+	<td>2275</td>
+	</tr>
+	<tr>
+	<td>8</td>
+	<td>Dadra and Nagar Haveli and Daman and Diu</td>
+	<td>62</td>
+	<td>26</td>
+	<td>0</td>
+	<td>88</td>
+	</tr>
+	
+	
+	
+	<tr>
+	<td>9</td>
+	<td>Delhi</td>
+	<td>24558</td>
+	<td>33013</td>
+	<td>2175</td>
+	<td>59746</td>
+	</tr>
+	
+	<tr>
+	<td>10</td>
+	<td>Goa</td>
+	<td>625</td>
+	<td>129</td>
+	<td>0</td>
+	<td>754</td>
+	</tr>
+	
+	<tr>
+	<td>11</td>
+	<td>Gujarat</td>
+	<td>6248</td>
+	<td>19349</td>
+	<td>1663</td>
+	<td>27260</td>
+	</tr>
+	
+	<tr>
+	<td>12</td>
+	<td>Haryana</td>
+	<td>4918</td>
+	<td>5557</td>
+	<td>160</td>
+	<td>10635</td>
+	</tr>
+	
+	<tr>
+	<td>13</td>
+	<td>Himachal Pradesh</td>
+	<td>240</td>
+	<td>425</td>
+	<td>8</td>
+	<td>673</td>
+	</tr>
+	
+	<tr>
+	<td>14</td>
+	<td>Jammu and Kashmir</td>
+	<td>2492</td>
+	<td>3382</td>
+	<td>82</td>
+	<td>5956</td>
+	</tr>
+	<tr>
+	<td>15</td>
+	<td>Jharkhand</td>
+	<td>656</td>
+	<td>1406</td>
+	<td>11</td>
+	<td>2073</td>
+	</tr>
+	
+	<tr>
+	<td>16</td>
+	<td>Karnataka</td>
+	<td>3395</td>
+	<td>5618</td>
+	<td>137</td>
+	<td>9150</td>
+	</tr>
+	
+	<tr>
+	<td>17</td>
+	<td>Kerala</td>
+	<td>1490</td>
+	<td>1661</td>
+	<td>21</td>
+	<td>3172</td>
+	</tr>
+	
+	<tr>
+	<td>18</td>
+	<td>Ladakh</td>
+	<td>702</td>
+	<td>134</td>
+	<td>1</td>
+	<td>837</td>
+	</tr>
+
+	<tr>
+	<td>19</td>
+	<td>Madhya Pradesh</td>
+	<td>2373</td>
+	<td>9015</td>
+	<td>515</td>
+	<td>11903</td>
+	</tr>
+	
+	<tr>
+	<td>20</td>
+	<td>Maharashtra</td>
+	<td>60161</td>
+	<td>65744</td>
+	<td>6170</td>
+	<td>132075</td>
+	</tr>
+	
+	<tr>
+	<td>21</td>
+	<td>Manipur</td>
+	<td>591</td>
+	<td>250</td>
+	<td>0</td>
+	<td>841</td>
+	</tr>
+	<tr>
+	<td>22</td>
+	<td>Meghalaya</td>
+	<td>10</td>
+	<td>33</td>
+	<td>1</td>
+	<td>44</td>
+	</tr>
+	
+	<tr>
+	<td>23</td>
+	<td>Mizoram</td>
+	<td>132</td>
+	<td>9</td>
+	<td>0</td>
+	<td>141</td>
+	</tr>
+	<tr>
+	<td>24</td>
+	<td>Nagaland</td>
+	<td>70</td>
+	<td>141</td>
+	<td>0</td>
+	<td>211</td>
+	</tr>
+	
+
+	<tr>
+	<td>25</td>
+	<td>Odisha</td>
+	<td>1426</td>
+	<td>3720</td>
+	<td>14</td>
+	<td>5160</td>
+	</tr>
+
+	<tr>
+	<td>26</td>
+	<td>Puducherry</td>
+	<td>218</td>
+	<td>140</td>
+	<td>8</td>
+	<td>366</td>
+	</tr>
+
+	<tr>
+	<td>27</td>
+	<td>Punjab</td>
+	<td>1275</td>
+	<td>2700</td>
+	<td>99</td>
+	<td>4074</td>
+	</tr>
+	
+	<tr>
+	<td>28</td>
+	<td>Rajasthan</td>
+	<td>2984</td>
+	<td>11597</td>
+	<td>349</td>
+	<td>14930</td>
+	</tr>
+	<tr>
+	<td>29</td>
+	<td>Sikkim</td>
+	<td>53</td>
+	<td>25</td>
+	<td>0</td>
+	<td>78</td>
+	</tr>
+
+	<tr>
+	<td>30</td>
+	<td>Tamil Nadu</td>
+	<td>25866</td>
+	<td>32754</td>
+	<td>757</td>
+	<td>59377</td>
+	</tr>
+	
+	<tr>
+	<td>31</td>
+	<td>Telangana</td>
+	<td>3861</td>
+	<td>3731</td>
+	<td>210</td>
+	<td>7802</td>
+	</tr>
+	
+	<tr>
+	<td>32</td>
+	<td>Tripura</td>
+	<td>461</td>
+	<td>759</td>
+	<td>1</td>
+	<td>1221</td>
+	</tr>
+	
+	
+	
+	<tr>
+	<td>33</td>
+	<td>Uttarakhand</td>
+	<td>817</td>
+	<td>1500</td>
+	<td>27</td>
+	<td>2344</td>
+	</tr>
+	
+	<tr>
+	<td>34</td>
+	<td>Uttar Pradesh</td>
+	<td>6186</td>
+	<td>10995</td>
+	<td>550</td>
+	<td>17731</td>
+	</tr>                    
+	
+	<tr>
+	<td>35</td>
+	<td>West Bengal</td>
+	<td>5093</td>
+	<td>8297</td>
+	<td>555</td>
+	<td>13945</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>Cases being reassigned to states</td>
+	<td>7832</td>
+	<td></td>
+	<td></td>
+	<td>7832</td>
+	</tr>
+	
+	<tr>
+	<td></td>
+	<td colspan="1"><strong><span>Total</span></strong></td>
+	<td align="right" style="text-align:right;"><strong>174387</strong></td>
+	<td>
+	<strong>237196</strong>
+	</td>
+	<td>
+	<strong>13699</strong>
+	</td>
+	<td>
+	<strong>425282</strong>
+	</td>
+	</tr>
+	<tr>
+	<td align="center" style="text-align:center;" colspan="6"><strong>*(Including foreign Nationals)
+</strong>
+	</td>
+	</tr>		
+</tbody>
+</table>
+</div>
+
+<div class="article">
+	<img style="float: left; height: 150px; width: 180px; padding-right: 15px;" src="article 1.webp">
+	<a href="https://www.hindustantimes.com/india-news/chhattisgarh-congress-mla-tests-positive-for-covid-19/story-SlVTIxDOsL8qWryTl85jcO.html"><strong style="font-size: 30px;">Chhattisgarh Congress MLA tests positive for Covid-19</strong></a>
+	<p style="font-size: 20px;">A Congress legislator of Rajnandgaon district tested positive for coronavirus positive on Monday, officials said. The Member of Legislative Assembly (MLA) has been admitted to a hospital and the administration is now finding details about his contacts.</p>
+</div>
+<div class="article">
+	<img style="float: left; height: 150px; width: 180px; padding-right: 15px;" src="article 2.webp">
+	<a href="https://www.hindustantimes.com/india-news/panic-sweeps-dehradun-bound-train-after-passenger-learns-he-is-covid-19/story-NSAhuK6E5lafMYLdr76ozM.html"><strong style="font-size: 30px;">Panic sweeps Dehradun-bound train after passenger learns he is Covid-19+</strong></a>
+	<p style="font-size: 20px;">The 48-year-old man who hails from Shyampur in Rishikesh is an employee in a battery making firm in Noida. He had boarded the train on Sunday afternoon from Ghaziabad. Midway through the journey, the person, whose sample was taken in Noida, got a message on his phone that he had tested positive for Covid-19.</p>
+</div>
+<div class="article">
+	<img style="float: left; height: 150px; width: 180px; padding-right: 15px;" src="article 3.webp">
+	<a href="https://www.hindustantimes.com/india-news/hyderabad-hospital-declares-woman-covid-19-free-then-says-she-died-of-it/story-vh1SlEf768lt5Su6xDw2vL.html"><strong style="font-size: 30px;">Hyderabad hospital declares woman Covid-19 free then says she died of it</strong></a>
+	<p style="font-size: 20px;">A 55-year-old woman from Hyderabad’s old city area was declared dead due to Covid-19 on Sunday night, three days after her death at Osmania General Hospital (OGH), where she was first declared negative for the virus due to alleged mix up of test reports.</p>
+</div>
+<div class="article">
+	<img style="float: left; height: 150px; width: 180px; padding-right: 15px;" src="article 4.webp">
+	<a href="https://www.hindustantimes.com/india-news/443-new-covid-19-cases-take-andhra-past-the-9000-mark-111-dead-so-far/story-CXC1F7azoISUk6kii9TuSL.html"><strong style="font-size: 30px;">443 new Covid-19 cases take Andhra past the 9000-mark, 111 dead so far</strong></a>
+	<p style="font-size: 20px;">Andhra Pradesh on Monday detected 443 new Covid-19 cases and five deaths in the last 24 hours, taking the total number of coronavirus cases in the state to 9,372, according to data from the state’s Command Control Room.
+    With the addition of 5 fatalities in the last 24 hours, the death toll in the Telugu state has now risen to 111.</p>
+</div>
+<div style="padding-left: 42%; font-size: 20px;">
+		<strong style="text-align: center;">Follow us</strong>
+</div>
+<div class="footer">
+
+	<a style="float: left; padding-top: 40px; padding-left: 250px; padding-right: 125px; " href="https://www.youtube.com/"><img style="height:100px; width: 100px;" src="youtube.png"></a>
+	<a style="float: left; padding-top: 40px; padding-right: 125px; padding-left: 125px;" href="https://twitter.com/login"><img style="height:100px; width: 100px;" src="twitter.png"></a>
+	<a style="float: left; padding-top: 40px; padding-right: 200px; padding-left: 125px" href="https://www.instagram.com/"><img style="height:100px; width: 100px;" src="instagram.png"></a>
+</div>
+</body>
+</html>
